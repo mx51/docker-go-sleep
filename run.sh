@@ -15,6 +15,6 @@ echo
 echo " * Executing $IMAGE:$TAG ..."
 echo
 
-docker run -it --rm $IMAGE:$TAG
+docker run --rm $IMAGE:$TAG
 
 echo
